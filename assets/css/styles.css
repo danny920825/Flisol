@@ -200,6 +200,9 @@ a:hover {
 .bg-zextras {
   background-color: transparent !important;
 }
+.bg-zextras_scroll {
+  background-color: var(--flisol-color-2) !important;
+}
 
 .bg-zextras a.nav-link:hover,
 .bg-zextras a.nav-link:focus {
