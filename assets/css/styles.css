@@ -1,0 +1,382 @@
+/*!
+ custom CSS for Zextras
+ */
+
+ .card {
+  background-color: transparent !important;
+}
+
+:root {
+  /*--improved-color: #00506d;*/
+  --flisol-color-1: #FF8E2A;
+  --flisol-color-2: #0055D4;
+  --flisol-color-4: #0055D4;
+  
+  --noir: #000;
+  --new-color: #6aa700;
+  --refactoring-color: #ffa700;
+  --gold_1: #daa520;
+  --gold_2: #b8860b;
+  --platinum_1: #dcdcdc;
+  --platinum_2: #a8a7ae;
+  --Abyss: #00506d;
+  --Magma: #e51a1a;
+  --Carbon: #182126;
+  --Flame: #fd830b;
+  --Spark: #f4c64c;
+  --Ice: #cbdde4;
+  --Pebble: #e5e5e5;
+  --Snow: #fff;
+}
+.flisol-header{
+    object-fit: contain;
+    margin-top: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem !important;
+}
+/* start custom btn download Zextras */
+
+.btn-download-zextras:not(:disabled):not(.disabled):active,
+.btn-download-zextras:not(:disabled):not(.disabled).active {
+  color: var(--flisol-color-1);
+  background-color: var(--Snow);
+  border-color: var(--Snow);
+}
+
+.btn-download-zextras:not(:disabled):not(.disabled):active:focus,
+.btn-download-zextras:not(:disabled):not(.disabled).active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(54, 117, 140, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(54, 117, 140, 0.5);
+}
+/* end custom btn download Zextras */
+
+/* start custom btn contact Zextras */
+.btn-contact-zextras:not(:disabled):not(.disabled):active,
+.btn-contact-zextras:not(:disabled):not(.disabled).active {
+  color: var(--Magma);
+  background-color: var(--Snow);
+  border-color: var(--Magma);
+}
+.btn-contact-zextras:not(:disabled):not(.disabled):active:focus,
+.btn-contact-zextras:not(:disabled):not(.disabled).active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(230, 48, 57, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(230, 48, 57, 0.5);
+}
+/* end custom btn contact Zextras */
+
+/* start custom btn store Zextras */
+.btn-store-zextras {
+  color: var(--Snow);
+  background-color: var(--flisol-color-1);
+  border-color: var(--Flame);
+  font-weight: 500;
+}
+.btn-store-zextras:hover {
+  color: var(--flisol-color-2);
+  background-color: var(--Snow);
+  border-color: #034bad;
+}
+.btn-store-zextras:focus {
+  color: var(--Snow);
+  background-color: var(--Magma);
+  border-color: var(--Magma);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(230, 48, 57, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(230, 48, 57, 0.5);
+}
+.btn-store-zextras:disabled {
+  color: var(--Magma);
+  background-color: var(--Snow);
+  border-color: var(--Magma);
+}
+.btn-store-zextras:not(:disabled):not(.disabled):active,
+.btn-store-zextras:not(:disabled):not(.disabled).active {
+  color: var(--Magma);
+  background-color: var(--Snow);
+  border-color: var(--Magma);
+}
+.btn-store-zextras:not(:disabled):not(.disabled):active:focus,
+.btn-store-zextras:not(:disabled):not(.disabled).active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(230, 48, 57, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(230, 48, 57, 0.5);
+}
+/* end custom btn store Zextras */
+
+/* start custom btn support Zextras */
+.btn-support-zextras:not(:disabled):not(.disabled):active,
+.btn-support-zextras:not(:disabled):not(.disabled).active {
+  color: var(--Snow);
+  background-color: var(--Magma);
+  border-color: var(--Magma);
+  font-weight: 500;
+}
+.btn-support-zextras:not(:disabled):not(.disabled):active:focus,
+.btn-support-zextras:not(:disabled):not(.disabled).active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(54, 117, 140, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(54, 117, 140, 0.5);
+}
+/* end custom btn support Zextras */
+
+/* start custom btn Carbonio */
+.btn-carbonio:not(:disabled):not(.disabled):active,
+.btn-carbonio:not(:disabled):not(.disabled).active {
+  color: var(--Snow);
+  background: rgb(229, 26, 26);
+  background: -webkit-gradient(
+    linear,
+    left top, right top,
+    from(rgba(229, 26, 26, 1)),
+    color-stop(32%, rgba(232, 39, 24, 1)),
+    color-stop(87%, rgba(253, 131, 11, 1)),
+    to(rgba(253, 131, 11, 1))
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(229, 26, 26, 1) 0%,
+    rgba(232, 39, 24, 1) 32%,
+    rgba(253, 131, 11, 1) 87%,
+    rgba(253, 131, 11, 1) 100%
+  );
+  padding: 15px 32px;
+  text-align: center;
+  border: 1px;
+  font-weight: 600;
+  height: 60px;
+  width: 350px;
+}
+.btn-carbonio:not(:disabled):not(.disabled):active:focus,
+.btn-carbonio:not(:disabled):not(.disabled).active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(54, 117, 140, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(54, 117, 140, 0.5);
+}
+/* end custom btn Carbonio */
+
+/* start custom btn theme Zextras */
+.btn-theme-zextras:not(:disabled):not(.disabled):active,
+.btn-theme-zextras:not(:disabled):not(.disabled).active {
+  color: #5b1418;
+  background-color: var(--Magma);
+  border-color: var(--Magma);
+}
+.btn-theme-zextras:not(:disabled):not(.disabled):active:focus,
+.btn-theme-zextras:not(:disabled):not(.disabled).active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(91, 20, 24);
+          box-shadow: 0 0 0 0.2rem rgba(91, 20, 24);
+}
+/* end custom btn theme Zextras */
+
+.card-body p {
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  color: var(--flisol-color-1);
+  margin-bottom: 1rem;
+  /*font-weight: 700;*/
+  /*text-transform: uppercase;*/
+}
+
+/*h2 {
+  font-size: 1.5rem;
+}*/
+.h_white {
+  color: var(--Snow);
+}
+
+a {
+  color: var(--Magma);
+  font-weight: 300;
+}
+
+a:hover {
+  color: var(--Magma);
+  text-decoration: underline;
+}
+
+/* start custom navbar Zextras */
+.bg-zextras {
+  background-color: transparent !important;
+}
+
+.bg-zextras a.nav-link:hover,
+.bg-zextras a.nav-link:focus {
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.nav-link-zextras {
+  padding-right: 1rem !important;
+}
+.dropdown-menu {
+  border: 0;
+  border-radius: 1rem;
+}
+.overlays-link-zextras {
+  /* background: rgba(255, 255, 255, 0.8); */
+  background-color: var(--flisol-color-1);
+  opacity: 0.9;
+}
+.overlays-link-zextras a {
+  color: var(--Snow);
+  padding: 1rem 1.5rem;
+}
+.overlays-link-zextras a:hover,
+.overlays-link-zextras a:focus {
+  background: none !important;
+  color: #fff;
+  text-decoration: underline;
+  /* font-weight: bold; */
+}
+/* end custom navbar Zextras */
+
+/* start custom nav button Zextras */
+/* end custom nav button Zextras */
+
+.container-fluid.top.home {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  /*height: auto;*/
+  background-size: cover;
+}
+@media (min-width: 320px) {
+  .container-fluid.top.home {
+      background: rgb(3,75,173);
+      background: linear-gradient(90deg, rgba(3,75,173,1) 0%, rgba(0,85,212,1) 40%, rgba(60,130,255,1) 100%); 
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-fluid.top.home {
+      background: rgb(3,75,173);
+      background: linear-gradient(90deg, rgba(3,75,173,1) 0%, rgba(0,85,212,1) 40%, rgba(60,130,255,1) 100%); 
+  }
+}
+
+.container-fluid.top.home {
+  height: 1000px !important;
+}
+
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  top: 750px;
+}
+
+.arrows path {
+  stroke: var(--Snow);
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s; /* Safari å’Œ Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s; /* Safari å’Œ Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s; /* Safari å’Œ Chrome */
+}
+.top {
+  padding: 150px 0 0 0;
+}
+/* end oval Zextras */
+
+/* start img center */
+
+.mt-5,
+.my-5 {
+  margin-top: 5rem !important;
+}
+/* end img center */
+
+/* start position relative */
+
+/* end position relative */
+
+/* start settings header text */
+
+/* end settings header text */
+
+/* start footer Zextras */
+.page-footer,
+.page-footer a {
+  color: var(--Snow);
+  text-transform: none;
+}
+
+.page-footer ul {
+  padding: 0.8rem 0;
+}
+.page-footer a {
+  padding: 0;
+}
+.font-small {
+  font-size: 0.8rem;
+}
+.footer-zextras-color {
+  background: rgb(17,17,17);
+}
+
+/* end footer Zextras */
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+/******* TABLE *********/
+
+/******* FORM *********/
+
+/* PARTNERS */
+
+/******* FORM LOGIN *********/
